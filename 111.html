@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {{js}}
+</head>
+<body>
+    <!--banner-->
+   {{banner}}
+    <!--banner end-->
+
+    <!--滚动消息-->
+        {{message}}
+    <!--滚动消息 end-->
+    <!--main-content-->
+        {{maincon}}
+    <!--main-content end-->
+    <!-- footer -->
+        {{footer}}
+    <!-- footer end-->
+
+<script>
+// banner 轮播 改变箭头和数字样式
+     $(function(){
+        $('.slick').slick({
+            dots: true,
+            arrows:false,
+            autoplay:true
+        });
+    });
+</script>
+
+</body>
+</html>

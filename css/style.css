@@ -1,0 +1,96 @@
+/*头部*/
+.header{
+	height: 88px;
+ 	background-color: #333;
+}
+.header .wp{
+ 	width: 1850px;
+ 	margin:0 auto;
+}
+.header .logo{
+	display: block;
+	float: left;
+	padding:22px 35px 0 0;
+	border-right: 1px solid #1b1b1b;
+	margin-right: 45px;
+}
+.header .logo img{
+	display: block;
+}
+.header ul{
+	line-height: 88px;
+}
+.header ul li{
+	float: left;
+	margin-right: 63px;
+}
+.header ul li a{
+	display: block;
+	color: #989898;
+	padding:0 6px;
+	border-top:4px solid #333333;
+}
+.header ul .on a,.header ul li a:hover{
+	color: #d8af4d;
+	border-top:4px solid #d8af4d;
+}
+.header .hrd{
+	float: right;
+	width: 534px;
+}
+.header .hrd a{
+	display: block;
+	float: left;
+	color: #989898;
+	margin-top: 28px;
+}
+.header .hrd .s1{
+	padding-left: 42px;
+	background: url("../images/icon1.png") no-repeat 0 center;
+	border-right: 1px solid #000;
+	padding-right: 26px;
+	margin-right: 22px;
+}
+.header .hrd .s2{
+	padding-left: 34px;
+	background: url("../images/icon2.png") no-repeat 0 1px;
+	position: relative;
+	margin-right: 47px;
+}
+.header .s2 em{
+	position: absolute;
+	top: -7px;
+	right: -17px;
+	font-size: 12px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	line-height: 18px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #de3a46;
+}
+.header button{
+	line-height: 48px;
+	outline: none;
+	border:1px solid #989898;
+	width: 108px;
+	height: 48px;
+	text-align: center;
+	background-color: #333;
+	color: #989898;
+	font-size: 24px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+.header button.login, .header button:hover{
+	color: #d8af4d;
+	border:1px solid #d8af4d;
+}
+.header button.login{
+	margin-right: 26px;
+}
+
+
+/*头部end*/
